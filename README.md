@@ -1,8 +1,32 @@
-# React + Vite
+    ✅Set up React Project:
+       ✅ Create a new React project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Component Structure:
+        Create components for different sections:
+            General Information
+            Educational Experience
+            Practical Experience
+        Each component should handle input fields for relevant information.
 
-Currently, two official plugins are available:
+    State and Props:
+        Utilize state and props to manage data flow between components.
+        State should handle the current input values and display information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Edit and Submit Functionality:
+        Include an edit button for each section.
+        Include a submit button for each section or for the entire CV.
+        Editing should display input fields with existing information.
+        Submitting should update the display with the new input values.
+
+    Components Directory:
+        Create a "components" directory under the src directory.
+        Place all component files within this directory.
+
+    Styles Directory:
+        Create a "styles" directory under the src directory.
+        Store CSS files for styling components within this directory.
+
+    Deployment:
+        Push the project to a Git repository.
+        Choose a deployment platform (e.g., Netlify, Vercel, GitHub Pages).
+        Deploy the project so it's accessible on the internet.
