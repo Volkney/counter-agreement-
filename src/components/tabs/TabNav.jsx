@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import EmployeeInfo from '../EmployeeInfo'
-import PersonTraveling from '../PersonTraveling'
+import EmployeeInfo from '../forms/EmployeeInfo'
+import PersonTraveling from '../forms/PersonTraveling'
 import Tab from '../tabs/Tab'
 
 export default function TabNav () {
@@ -21,7 +21,7 @@ export default function TabNav () {
         onSelect={() => handleTabClick('person')}
       />
       {selectedTab === 'employee' && <EmployeeInfo text='Employee Information' />}
-      {selectedTab === 'person' && <PersonTraveling text='Person Traveling' />}
+      {selectedTab === 'person' && <PersonTraveling />}
     </nav>
   )
 }
