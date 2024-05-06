@@ -1,6 +1,9 @@
-export default function EmployeeInfo () {
+export default function EmployeeInfo ({ text }) {
   return (
     <form>
+      <h1>
+        {text}
+      </h1>
       <div>
         <label>Name</label>
         <input type='text' name='name' required />

@@ -1,10 +1,10 @@
 import './App.css'
-import EmployeeInfo from './components/EmployeeInfo'
+import TabNav from './components/tabs/TabNav'
 
 function App () {
   return (
     <>
-      <EmployeeInfo />
+      <TabNav />
     </>
   )
 }
